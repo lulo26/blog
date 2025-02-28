@@ -1,0 +1,26 @@
+body{
+    background-color: wheat
+    }
+    
+    .bl-sidebar{
+        position: sticky;
+        display: block !important;
+        overflow-y: auto;
+        height: calc(100vh - 6rem);
+        top: 5rem;
+        padding-left: .25rem;
+        margin-left: -.25rem;
+    }
+    
+    .bl-main{
+        grid-template-rows: auto 1fr;
+        grid-template-columns: 4fr 1fr;
+        gap: inherit;
+        max-width: 760px;
+        margin-inline: auto;
+        display: block;
+    }
+    
+    .order-1{
+        order: 1 !important;
+    }
