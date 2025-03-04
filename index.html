@@ -6,34 +6,58 @@
     <title>Blog</title>
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
   </head>
-  <body>
-    <!-- <div class="container-xxl bd-gutter mt-3 my-md-4 bd-layout">
-        <aside class="bl-sidebar">
-            <ul>
-                <li>h</li>
-                <li>e</li>
-                <li>l</li>
-                <li>l</li>
-                <li>o</li>
-            </ul>
-        </aside>
-        -->
-        <main class="bl-main mt-5 text-center">
-            <h1 class="mb-5">Hello world</h1>
+  <body class="bg-body-tertiary">
 
-                <div class="card w-100 mx-auto" style="width: 18rem;">
-                    <img src="Breaking.Bad-kwdF--1240x698@abc.webp" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
+    <header class="bg-dark sidebar-padding border-bottom">
+      <nav class="navbar container-xxl bg-dark border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/Breaking.Bad-kwdF--1240x698@abc.webp" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Bootstrap
+          </a>
+          <a class="d-flex">Log in</a>
+        </div>
+      </nav>
+    </header>
 
+    <div class="container-xxl bg-body-tertiary">
+      <main class="bl-main">
+        <h1 class="mb-5 mt-3">Hello world</h1>
+        <div class="card w-100 mx-auto" style="width: 18rem;">
+          <div class="card-head mt-3 mb-3">
+            <div class="row">
+              <div class="col-10">
+                <h5 class="card-title">Card title</h5>
+              </div>
+              <div class="col-2">
+                <div class="date-text">02/03/2025</div>
+              </div>
             </div>
-            
-        </main>
-        
-    </div> 
+          </div>
+          
+            <img src="Breaking.Bad-kwdF--1240x698@abc.webp" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="container text-center">
+                <div class="row">
+                  <div class="col">
+                    <button class="btn-post" type="button"><i class="h4 bi bi-heart"></i></button>
+                  </div>
+                  <div class="col">
+                    <button class="btn-post" type="button"><i class="h4 bi bi-chat"></i></button>
+                  </div>
+                  <div class="col">
+                    <button class="btn-post" type="button"><i class="h4 bi bi-share"></i></button>
+                  </div>
+                </div>
+            </div>
+        </div>
+      </main>
+    </div>
+
 
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>

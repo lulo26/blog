@@ -1,26 +1,53 @@
-body{
-    background-color: wheat
-    }
+
     
-    .bl-sidebar{
-        position: sticky;
-        display: block !important;
-        overflow-y: auto;
-        height: calc(100vh - 6rem);
-        top: 5rem;
-        padding-left: .25rem;
-        margin-left: -.25rem;
-    }
+.bl-sidebar{
+    position: sticky;
+    display: block !important;
+    overflow-y: auto;
+    height: calc(100vh - 6rem);
+    top: 5rem;
+    padding-left: .25rem;
+    margin-left: -.25rem;
+}
     
-    .bl-main{
-        grid-template-rows: auto 1fr;
-        grid-template-columns: 4fr 1fr;
-        gap: inherit;
-        max-width: 760px;
-        margin-inline: auto;
-        display: block;
-    }
-    
-    .order-1{
-        order: 1 !important;
-    }
+.bl-main{
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 4fr 1fr;
+    gap: inherit;
+    max-width: 760px;
+    margin-inline: auto;
+    display: block;
+}
+
+.bd-layout {
+    display: grid;
+    gap: 1.5rem;
+}
+
+
+.my-md-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.sidebar-padding{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.btn-post{
+    background-color: transparent;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-style: none;
+}
+
+.card-head{
+    margin-left: 3%;
+}
+
+.date-text{
+    color: gray;
+}
