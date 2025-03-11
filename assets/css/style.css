@@ -1,6 +1,8 @@
+body{
+    background-color: #3e4451;
+}
 
-    
-.bl-sidebar{
+/* .bl-sidebar{
     position: sticky;
     display: block !important;
     overflow-y: auto;
@@ -8,7 +10,7 @@
     top: 5rem;
     padding-left: .25rem;
     margin-left: -.25rem;
-}
+} */
     
 .bl-main{
     grid-template-rows: auto 1fr;
@@ -50,4 +52,24 @@
 
 .date-text{
     color: gray;
+}
+
+.button-number{
+    text-align: center;
+    margin-top: calc(0.6rem);
+    display: inline-block;
+    font-weight: normal;
+}
+
+.card-text-size{
+    font-size: larger;
+}
+
+.card-dark{
+    background-color: #7d8492;
+}
+
+.login-text{
+    text-decoration: none;
+    font-size: larger;
 }
